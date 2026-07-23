@@ -1,7 +1,27 @@
 aid: apnamart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apnamart.png
 name: ApnaMart
-description: 'ApnaMart is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  ApnaMart (Apna Mart) is a Bengaluru-based Indian retail and quick-commerce company
+  founded in 2022 by Chetan Kumar Garg and Abhishek Singh. It operates a network of
+  franchise-model neighborhood grocery and FMCG stores combined with a 15-minute
+  delivery app, serving customers across roughly 14 cities including tier-2 and tier-3
+  markets such as Ranchi, Hazaribagh, and Bilaspur. Backed by Accel, Peak XV, and
+  Fundamentum, the company blends brick-and-mortar retail with on-demand delivery of
+  daily essentials. ApnaMart is a consumer retail business and does not publish a public
+  developer platform or API surface; this profile in the API Evangelist network captures
+  its identity, domain-security posture, and published web properties.
 url: https://raw.githubusercontent.com/api-evangelist/apnamart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +35,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Consumer
+- Retail
+- Grocery
+- Quick Commerce
+- E-Commerce
+- Delivery
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://apnamart.in/
+- type: Blog
+  url: https://apnamart.in/blog
+- type: PrivacyPolicy
+  url: https://apnamart.in/privacy-policy
+- type: DomainSecurity
+  url: security/apnamart-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
